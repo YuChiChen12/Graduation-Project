@@ -15,13 +15,13 @@
    * 用 self reflection 優化模型的解釋和預測
 
 ## 進度規劃
-Jun. => 實驗設計 & 參考 benchmark paper
-Jul. => Prediction with LLM
-Aug. => Prediction with LLM & MAGNN
-Sep. => MAGNN & Two Stages
-Oct. => Two Stages
-Nov. => 總結實驗結果
-Dec. => 成果發表
+### Jun. => 實驗設計 & 參考 benchmark paper
+### Jul. => Prediction with LLM
+### Aug. => Prediction with LLM & MAGNN
+### Sep. => MAGNN & Two Stages
+### Oct. => Two Stages
+### Nov. => 總結實驗結果
+### Dec. => 成果發表
 
 ## Benchmark Paper
 * [Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction](https://arxiv.org/abs/2309.05608)
