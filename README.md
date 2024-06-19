@@ -2,8 +2,8 @@
 ## Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
 1. 對 LLM 做 prompt engineering & fine-tune
    > 可參照 [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/html/2403.12582v1?)
-     > [內文](https://arxiv.org/html/2403.12582v1)
-     > [Github](https://github.com/AlphaFin-proj/AlphaFin)
+   > [內文](https://arxiv.org/html/2403.12582v1)
+   > [Github](https://github.com/AlphaFin-proj/AlphaFin)
    * RAG
 2. 將新聞透過 LLM 分析並整理
 4. 利用兩種輸入(股價&新聞分析)建構出 multi-modality graph neural network (考慮到股票的潛在相互依賴性 & lead-lag effect)
