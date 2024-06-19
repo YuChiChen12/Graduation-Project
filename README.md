@@ -16,22 +16,22 @@
 
 ## 進度規劃
 Jun.
-   * 實驗設計
-   * 參考 benchmark paper
+* 實驗設計
+* 參考 benchmark paper
 Jul.
-   * Prediction with LLM
+* Prediction with LLM
 Aug.
-   * Prediction with LLM
-   * MAGNN
+* Prediction with LLM
+* MAGNN
 Sep.
-   * MAGNN
-   * Two Stages
+* MAGNN
+* Two Stages
 Oct.
-   * Two Stages
+* Two Stages
 Nov.
-   * 總結實驗結果
+* 總結實驗結果
 Dec.
-   * 成果發表
+* 成果發表
 
 ## Benchmark Paper
 * [Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction](https://arxiv.org/abs/2309.05608)
