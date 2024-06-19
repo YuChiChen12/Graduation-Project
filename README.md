@@ -15,22 +15,22 @@
    * 用 self reflection 優化模型的解釋和預測
 
 ## 進度規劃
-1. Jun.
+Jun.
    * 實驗設計
    * 參考 benchmark paper
-2. Jul.
+Jul.
    * Prediction with LLM
-3. Aug.
+Aug.
    * Prediction with LLM
    * MAGNN
-4. Sep.
+Sep.
    * MAGNN
    * Two Stages
-5. Oct.
+Oct.
    * Two Stages
-6. Nov.
+Nov.
    * 總結實驗結果
-7. Dec.
+Dec.
    * 成果發表
 
 ## Benchmark Paper
