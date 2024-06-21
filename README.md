@@ -15,7 +15,7 @@
 * [Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph](https://arxiv.org/abs/2307.07697)
    * [Content](https://ar5iv.labs.arxiv.org/html/2307.07697)
    * [Github](https://github.com/IDEA-FinAI/ToG)
-### KG
+### Benchmark - KG
 * [FinDKG: Dynamic Knowledge Graph with Large Language Models for Global Finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4608445)
    * [FinDKG Website](https://xiaohui-victor-li.github.io/FinDKG/)
    * [Github](https://github.com/xiaohui-victor-li/FinDKG)
