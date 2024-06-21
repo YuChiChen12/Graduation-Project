@@ -2,29 +2,22 @@
 ## Main Idea - LLM & KG
 ### Overview
 * [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302)
-   * [內文](https://ar5iv.labs.arxiv.org/html/2306.08302)
-[论文阅读：Unifying Large Language Model and Knowledge Graph：A RoadMap](https://www.cnblogs.com/zjz2333/p/17780118.html)
-[LLM+KGs综述：Unifying Large Language Models and Knowledeg Graphs: A Roadmap](https://blog.csdn.net/weixin_52953225/article/details/131456764)
+   * [Content](https://ar5iv.labs.arxiv.org/html/2306.08302)
+   * [论文阅读：Unifying Large Language Model and Knowledge Graph：A RoadMap](https://www.cnblogs.com/zjz2333/p/17780118.html)
+   * [LLM+KGs综述：Unifying Large Language Models and Knowledeg Graphs: A Roadmap](https://blog.csdn.net/weixin_52953225/article/details/131456764)
+### Proposed
+* KG-enhanced LLMs：KG-enhanced LLM inference
+* Synergized LLMs + KGs：LLMs as Agents Reasoning
+### Benchmark - Synergized LLMs + KGs
+* [Complex Logical Reasoning over Knowledge Graphs using Large Language Models](https://arxiv.org/abs/2305.01157)
+   * [Content](https://ar5iv.labs.arxiv.org/html/2305.01157)
+   * [Github](https://github.com/Akirato/LLM-KG-Reasoning?utm_source=catalyzex.com)
+* [Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph](https://arxiv.org/abs/2307.07697)
+   * [Content](https://ar5iv.labs.arxiv.org/html/2307.07697)
+   * [Github](https://github.com/IDEA-FinAI/ToG)
 
-KG-enhanced LLMs：KG-enhanced LLM inference
-Synergized LLMs + KGs：LLMs as Agents Reasoning
-* 其他參考
+### Other References
 [Github KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
-
-## Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
-1. 對 LLM 做 prompt engineering & fine-tune
-   > 可參照 [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/abs/2403.12582)
-   > [內文](https://arxiv.org/html/2403.12582v1)
-   > [Github](https://github.com/AlphaFin-proj/AlphaFin)
-   * RAG
-2. 將新聞透過 LLM 分析並整理
-3. 利用兩種輸入(股價&新聞分析)建構出 multi-modality graph neural network (考慮到股票的潛在相互依賴性 & lead-lag effect)
-   > 可參照 [Financial time series forecasting with multi-modality graph neural network](https://www.sciencedirect.com/science/article/pii/S003132032100399X)
-   > [Github](https://github.com/finint/MAGNN)
-* 未來展望
-   * 分為對總經/產業/個股影響
-      * 利用 multihead attention layer 整合三者的互相影響
-   * 用 self reflection 優化模型的解釋和預測
 
 ## 進度規劃
 ### Jun. => 實驗設計 & 參考 benchmark paper
@@ -35,7 +28,7 @@ Synergized LLMs + KGs：LLMs as Agents Reasoning
 ### Nov. => 總結實驗結果
 ### Dec. => 成果發表
 
-## Benchmark Paper
+## 0602 Proposed Idea
 * [Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction](https://arxiv.org/abs/2309.05608)
 * [ChatGPT Informed Graph Neural Network for Stock Movement Prediction](https://arxiv.org/abs/2306.03763)
 * [Stock Movement Prediction with Multimodal Stable Fusion via Gated Cross-Attention Mechanism](https://arxiv.org/abs/2406.06594)
@@ -68,3 +61,18 @@ Synergized LLMs + KGs：LLMs as Agents Reasoning
     * 解釋部分可利用 [self reflection](https://arxiv.org/abs/2303.11366) 優化 (每次預測後，將預測結果與實際結果進行比較，生成反思回饋)
     * 使用PPO算法根據反思回饋更新模型參數，使其能夠更準確地預測趨勢、季節性和殘差組件
   * 不同行業選擇不同特徵(？
+
+## 0616 Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
+1. 對 LLM 做 prompt engineering & fine-tune
+   > 可參照 [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/abs/2403.12582)
+   > [內文](https://arxiv.org/html/2403.12582v1)
+   > [Github](https://github.com/AlphaFin-proj/AlphaFin)
+   * RAG
+2. 將新聞透過 LLM 分析並整理
+3. 利用兩種輸入(股價&新聞分析)建構出 multi-modality graph neural network (考慮到股票的潛在相互依賴性 & lead-lag effect)
+   > 可參照 [Financial time series forecasting with multi-modality graph neural network](https://www.sciencedirect.com/science/article/pii/S003132032100399X)
+   > [Github](https://github.com/finint/MAGNN)
+* 未來展望
+   * 分為對總經/產業/個股影響
+      * 利用 multihead attention layer 整合三者的互相影響
+   * 用 self reflection 優化模型的解釋和預測
