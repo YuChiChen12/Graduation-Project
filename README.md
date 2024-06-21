@@ -92,6 +92,10 @@
    > [Content](https://ar5iv.labs.arxiv.org/html/2006.10637)
    > [Github](https://github.com/twitter-research/tgn?utm_source=catalyzex.com)
    > [Video](https://www.youtube.com/watch?v=W1GvX2ZcUmY)
+
+   > [Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction](https://arxiv.org/abs/2305.08740)
+   > [Content](https://ar5iv.labs.arxiv.org/html/2305.08740)
+   > [Github](https://github.com/finint/THGNN/tree/main)
 * 未來展望
    * 分為對總經/產業/個股影響
       * 利用 multihead attention layer 整合三者的互相影響
