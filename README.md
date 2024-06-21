@@ -1,4 +1,16 @@
 # Graduation-Project
+## Main Idea - LLM & KG
+### Overview
+* [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302)
+   * [內文](https://ar5iv.labs.arxiv.org/html/2306.08302)
+[论文阅读：Unifying Large Language Model and Knowledge Graph：A RoadMap](https://www.cnblogs.com/zjz2333/p/17780118.html)
+[LLM+KGs综述：Unifying Large Language Models and Knowledeg Graphs: A Roadmap](https://blog.csdn.net/weixin_52953225/article/details/131456764)
+
+KG-enhanced LLMs：KG-enhanced LLM inference
+Synergized LLMs + KGs：LLMs as Agents Reasoning
+* 其他參考
+[Github KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
+
 ## Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
 1. 對 LLM 做 prompt engineering & fine-tune
    > 可參照 [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/abs/2403.12582)
