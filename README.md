@@ -15,7 +15,12 @@
 * [Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph](https://arxiv.org/abs/2307.07697)
    * [Content](https://ar5iv.labs.arxiv.org/html/2307.07697)
    * [Github](https://github.com/IDEA-FinAI/ToG)
-
+### KG
+* [FinDKG: Dynamic Knowledge Graph with Large Language Models for Global Finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4608445)
+   * [FinDKG Website](https://xiaohui-victor-li.github.io/FinDKG/)
+   * [Github](https://github.com/xiaohui-victor-li/FinDKG)
+* [Temporal-Relational hypergraph tri-Attention networks for stock trend prediction](https://www.sciencedirect.com/science/article/pii/S0031320323004570)
+   * [Github](https://github.com/lixiaojieff/HGTAN)
 ### Other References
 [Github KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
 
@@ -64,14 +69,24 @@
 
 ## 0616 Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
 1. 對 LLM 做 prompt engineering & fine-tune
-   > 可參照 [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/abs/2403.12582)
+   > 可參照
+   > [AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework](https://arxiv.org/abs/2403.12582)
    > [內文](https://arxiv.org/html/2403.12582v1)
    > [Github](https://github.com/AlphaFin-proj/AlphaFin)
    * RAG
 2. 將新聞透過 LLM 分析並整理
 3. 利用兩種輸入(股價&新聞分析)建構出 multi-modality graph neural network (考慮到股票的潛在相互依賴性 & lead-lag effect)
-   > 可參照 [Financial time series forecasting with multi-modality graph neural network](https://www.sciencedirect.com/science/article/pii/S003132032100399X)
+   > 可參照
+   > [Financial time series forecasting with multi-modality graph neural network](https://www.sciencedirect.com/science/article/pii/S003132032100399X)
    > [Github](https://github.com/finint/MAGNN)
+   > * 神经开放域信息抽取OpenIE
+   > * 探索OpenIE：一个强大的开放信息提取工具
+   > * OpenNRE：可一键运行的开源关系抽取工具包
+   > * 机器学习 Micro-F1和Macro-F1详解
+   > [Temporal Graph Networks for Deep Learning on Dynamic Graphs](https://arxiv.org/abs/2006.10637)
+   > [Content](https://ar5iv.labs.arxiv.org/html/2006.10637)
+   > [Github](https://github.com/twitter-research/tgn?utm_source=catalyzex.com)
+   > [Video](https://www.youtube.com/watch?v=W1GvX2ZcUmY)
 * 未來展望
    * 分為對總經/產業/個股影響
       * 利用 multihead attention layer 整合三者的互相影響
