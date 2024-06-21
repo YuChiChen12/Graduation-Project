@@ -9,6 +9,10 @@
 * KG-enhanced LLMs：KG-enhanced LLM inference
 * Synergized LLMs + KGs：LLMs as Agents Reasoning
 ### Benchmark - Synergized LLMs + KGs
+*[StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://arxiv.org/abs/2305.09645)
+   * [Content](https://ar5iv.labs.arxiv.org/html/2305.09645)
+   * [Github](https://github.com/RUCAIBox/StructGPT)
+   * [Video](https://aclanthology.org/2023.emnlp-main.574.mp4)
 * [Complex Logical Reasoning over Knowledge Graphs using Large Language Models](https://arxiv.org/abs/2305.01157)
    * [Content](https://ar5iv.labs.arxiv.org/html/2305.01157)
    * [Github](https://github.com/Akirato/LLM-KG-Reasoning?utm_source=catalyzex.com)
