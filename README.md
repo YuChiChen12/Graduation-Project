@@ -15,6 +15,10 @@
    > * 探索OpenIE：一个强大的开放信息提取工具
    > * OpenNRE：可一键运行的开源关系抽取工具包
    > * 机器学习 Micro-F1和Macro-F1详解
+* 未來展望
+   * 分為對總經/產業/個股影響
+      * 利用 multihead attention layer 整合三者的互相影響
+   * 用 self reflection 優化模型的解釋和預測
 ## 進度規劃
 ### Jun. => 實驗設計 & 參考 benchmark paper
 ### Jul. => Prediction with LLM
@@ -63,7 +67,8 @@
    > [Github](https://github.com/twitter-research/tgn?utm_source=catalyzex.com)
    > [Video](https://www.youtube.com/watch?v=W1GvX2ZcUmY)
 
-   ### LLM & KG Overview
+## 0621 Proposed Idea
+### LLM & KG Overview
 * [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302)
    * [Content](https://ar5iv.labs.arxiv.org/html/2306.08302)
    * [论文阅读：Unifying Large Language Model and Knowledge Graph：A RoadMap](https://www.cnblogs.com/zjz2333/p/17780118.html)
@@ -90,12 +95,6 @@
    * [Github](https://github.com/lixiaojieff/HGTAN)
 ### Other References
 [Github KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
-
-
-   > [Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction](https://arxiv.org/abs/2305.08740)
-   > [Content](https://ar5iv.labs.arxiv.org/html/2305.08740)
-   > [Github](https://github.com/finint/THGNN/tree/main)
-* 未來展望
-   * 分為對總經/產業/個股影響
-      * 利用 multihead attention layer 整合三者的互相影響
-   * 用 self reflection 優化模型的解釋和預測
+> [Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction](https://arxiv.org/abs/2305.08740)
+> [Content](https://ar5iv.labs.arxiv.org/html/2305.08740)
+> [Github](https://github.com/finint/THGNN/tree/main)
