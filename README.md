@@ -1,4 +1,8 @@
 # Graduation-Project
+## Benchmark Paper
+1. [Financial time series forecasting with multi-modality graph neural network](https://www.sciencedirect.com/science/article/pii/S003132032100399X) [Github](https://github.com/finint/MAGNN/tree/main)
+2. [NExT-GPT: Any-to-Any Multimodal LLM](https://ar5iv.labs.arxiv.org/html/2309.05519) [NExT-GPT:Any-to-Any Multimodal Large Language Model](https://next-gpt.github.io/)
+3. [StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://ar5iv.labs.arxiv.org/html/2305.09645) [Github](https://github.com/RUCAIBox/StructGPT)
 ## 0616 Proposed Idea - M-RAGNN(Multimodal Retrieval-Augmented Graph Neural Network for Financial Forecasting) (Two Stages)
 1. 對 LLM 做 prompt engineering & fine-tune
    > 可參照
